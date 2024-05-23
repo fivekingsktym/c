@@ -23,4 +23,12 @@ or
 
 git clone https://github.com/cs50/libcs50.git
 cd libcs50
-make
+sudo make install
+
+### CS50 is not comes with c language, so you need to add them in the compilation time:
+
+gcc -o get_negative_int get_negative_int.c -lcs50
+or
+clang -o get_negative_int get_negative_int.c -lcs50
+or
+cc get_negative_int.c -lcs50 -o get_negative_int

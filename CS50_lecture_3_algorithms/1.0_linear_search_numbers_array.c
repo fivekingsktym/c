@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Linear Search
+// Linear Search :- 7:38 hour
 
 int main(void) {
     

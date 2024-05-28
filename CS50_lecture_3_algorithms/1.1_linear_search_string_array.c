@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Linear Search
+// Linear Search :- 7:38 hour
 
 int main(void) {
     
